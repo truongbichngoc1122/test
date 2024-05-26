@@ -1,0 +1,661 @@
+
+.video {
+  width: 100%;
+}
+.images {
+  position: absolute;
+  left: -61px;
+}
+.business {
+  margin-top: 60px;
+}
+.button-secondary {
+  position: absolute;
+  bottom: 8%;
+  right:17%;
+  padding: 20px;
+}
+.section-career {
+  margin-top: 60px;
+  background-image: url("https://sun-asterisk.vn/wp-content/uploads/2020/11/career-bg.jpg");
+  height: 600px;
+  border-radius: 20px;
+}
+.section-career-background {
+  background-color: rgba(192, 17, 17, 0.9);
+}
+.haru-career-intro__content {
+    position: relative;
+    color: #fff;
+    border-radius: 16px;
+    padding: 0 5%;
+    background-size: cover;
+}
+.haru-career-intro__content:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(192, 17, 17, .9);
+  z-index: 0;
+  border-radius: 16px;
+}
+.quality .h1--quality {
+ font-size: 7rem;
+ color: red;
+ font-weight: bold;
+}
+.symbal span {
+  font-size: 4rem;
+  color: red;
+  font-weight: bold;
+  
+}
+.project .quality {
+  font-size: 4rem;
+  display: flex;
+}
+.p-quality p {
+  font-size: 2rem;
+}
+
+/**button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.section-introduce {
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+
+
+.header {
+  height: 100px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 0 rgba(204, 204, 204, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  padding-bottom: 10px;
+}
+
+.header-container {
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+}
+
+.button-basic, .button-secondary, .button-primary {
+  font-size: 1.8rem;
+  width: 100%;
+  padding: 30px 0px;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.button-primary {
+  background-color:white;
+  color: red;
+}
+
+.button-primary {
+  transition: all 0.2s ease-in-out;
+}
+.button-primary:hover {
+  background-color: black;
+  color: white;
+}
+
+.button-secondary {
+  background-color: black;
+  color: white;
+}
+.header-logo {
+  display: inline-block;
+}
+
+.header-menu {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: 150px;
+  font-size: 1.3rem;
+}
+
+.header-menu span {
+  display: inline-block;
+  margin: 0 17px;
+}
+.header-container .header-logo img {
+  width: 100px;
+}
+
+.header-container .header-menu  {
+  display: inline-block;
+  padding: 0 12px;
+}
+
+.header-container .header-menu   {
+  border-top: 5px solid transparent;
+  color : black ;
+  padding: 17px 0;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.header .header-setting {
+  color: black;
+}
+.header .header-setting .header-setting-active {
+  padding: 1px 13px;
+  fron-width: 600 ;
+  border: 1px solid red;
+  border-radius: 4px;
+  color: red ;
+  margin-left: 100px;
+}
+.header .header-setting .header-setting-not-active {
+  padding: 2px 8px;
+
+}
+
+.header .header-setting .header-setting-not-active:hover{
+  color: red;
+}
+
+.header-container .header-menu .header-item span:hover  {
+  color: red;
+  border-top: 5px solid red;
+}
+.header-item:hover{
+  color: black ;
+  border-top: 5px solid red;
+
+}
+
+.header-item a {
+  color: black;
+}
+
+.header-item a:hover {
+  color: red;
+}
+.header-item {
+  padding-top:20px;
+}
+
+/* section Business */
+
+/*.section-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: black ;
+  margin-left: 150px;
+}
+
+.business-block {
+  box-shadow: 0 0 10px 0 rgba(204, 204, 204, 0.5);
+  display: flex;
+  position: relative;
+ 
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 40px;
+  
+  border-radius: 12px;
+
+}
+/*.business-block img {
+  font-size: 80px;
+  width: 50%;
+  padding: 10px;
+}
+*/
+
+/*.business-block-dsc {
+  width: 50%;
+  
+}
+
+.business-block-dsc p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  z-index: 0;
+}
+.business-block img {
+  position: absolute;
+  top: -50px;
+  right:-49px;
+}
+
+/* section-introduce video */
+/*.section-introduce video{
+  width: 100%;
+}
+
+/* business-list */
+
+/*.business-list {
+  margin: 40px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 60px;
+}
+
+
+.bunsiness-item-active {
+ border-radius: 20px;
+ padding: 40px;
+  margin: 70px;
+  position: relative;
+  background-color: darkred;
+  color: white;
+  font-size: 1.3rem;
+
+
+}
+.business-list .bunsiness-item-active::before {
+content: "";
+background-color: red;
+position: absolute;
+border-radius: 50%;
+top: -37px;
+right: 72px;
+width: 80px;
+height:80px;
+}
+
+.bunsiness-item-white {
+ border: 1px solid rgba(0, 0, 0, 0.2);
+ margin: 20px;
+ padding: 40px;
+ border-radius: 20px;
+ font-size: 1.3rem;
+ position: relative;
+}
+.bunsiness-item-heading {
+  font-weight: 400;
+  font-size: 1.5rem;
+ 
+  
+}
+.bunsiness-item-title {
+  font-size: 2.4rem;
+ 
+}
+
+.business-dsc {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  padding: 30px 0;
+}
+
+.button-creative {
+  width: 88%;
+  color: darkred;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  justify-content: space-around;
+  font-size: 1.0rem;
+  font-weight: bold;
+  
+}
+.button-talent {
+  width: 88%;
+  color: white;
+  background-color: black;
+ padding: 30px;
+  border-radius: 12px;
+ justify-content: space-around;
+  font-size: 1.0rem;
+  font-weight: bold;
+}
+.button-creative-container {
+ justify-content: center;
+ display: flex;
+}
+.button-talent-container {
+  justify-content: center;
+  display: flex;
+}
+.button-creative-container:hover .button-creative {
+ background-color: black;
+ color: white;
+}
+.button-talent-container:hover .button-talent{
+  background-color: darkred;
+}
+
+/*section-project*/
+
+/*.section-project {
+  margin-top: 60px;
+  margin-left: 150px;
+  display: flex;
+}
+.project-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+.section-project .project-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-dsc {
+padding: 30px;
+display: inline;
+margin-left: -331px;
+}
+.quantily {
+  font-size: 90px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: darkred;
+  display: inline-block;
+  padding-top: 168px;
+}
+.quantily .sign {
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: -65px;
+}
+.name {
+  color: grey;
+  font-size: 24px;
+  margin-left: -64px;
+}
+.button-project {
+  width: 108%;
+  color: white;
+  background-color: black;
+ padding: 18px;
+  border-radius: 5px;
+ justify-content: space-around;
+  font-size: 1.0rem;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: -30px;
+}
+.button-project-container:hover .button-project{
+  background-color: darkred;
+}
+/* project-list */
+
+/*.project-list {
+  position: relative;
+  margin-left: 250px;
+}
+.section-project .project-list .project-item .project-item-dsc {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  color: grey;
+}
+.project-item img {
+  opacity: 0.2;
+}
+.project-item-dsc h3 {
+  color: black;
+}
+.see {
+  color: darkred;
+}
+.system {
+  display: inline-block;
+}
+/* Section career  */
+
+/*.section-career {
+  margin-top: 70px;
+  background-image: url("https://sun-asterisk.vn/wp-content/uploads/2020/11/career-bg.jpg");
+  height: 600px;
+  border-radius: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: -10px;
+}
+
+.career-background-dsc {
+  width: 100%;
+  height: 100%;
+  background-color: darkred;
+  border-radius: 20px;
+  text-align: center;
+  padding-bottom: 70px;
+  opacity: 0.9;
+  background-size: cover;
+  
+
+}
+.career-background-dsc h4 {
+  font-size: 1.2rem;
+  color: white;
+  padding-top: 50px;
+}
+.career-background-dsc .career-title {
+  color: white;
+  padding: 30px 20px;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.career-background-dsc p {
+  font-size: 1.6rem;
+  color: white;
+  padding: 10px
+}
+.career-background-dsc h3 {
+  font-size: 2rem;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+
+}
+.career-background-dsc .button-career {
+  width: 30%;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+.career-background  {
+
+z-index: 1;
+}
+.career-background-dsc::before {
+  content: "";
+  background-color: red;
+  border-radius: 50% ;
+ position: absolute;
+ width: 50px;
+ height: 50px;
+
+}
+
+.button-career {
+  width: 108%;
+  color: darkred;
+  background-color: white;
+  padding: 18px;
+  border-radius: 10px;
+  justify-content: space-around;
+  font-size: 1.0rem;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: -30px;
+}
+.button-career-container:hover .button-career {
+  background-color: black;
+  color: white;
+}
+
+/* section enviroment */
+
+/*.section-environment-litle {
+  margin-top: 250px;
+  margin-left: 150px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.enviroment-block {
+  display: flex;
+  margin-left: 150px;
+  align-content: flex-start;
+  margin-right: 150px;
+}
+.list .item .check p {
+  font-size: 1.5rem;
+  color: grey;
+  line-height: 1.6;
+  margin-right: 100px;
+
+}
+.enviroment-pic img {
+  width: 100%;
+  position: relative;
+}
+.button-enviroment {
+  width: 34%;
+  color: white;
+  background-color: black;
+  padding: 32px;
+  border-radius: 10px;
+  justify-content: space-around;
+  font-size: 1.0rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 85px;
+
+}
+.button-enviroment-container:hover .button-enviroment {
+  background-color: darkred;
+  color: white;
+}
+ .enviroment-block .button-enviroment {
+  position: absolute;
+  left: 727px;
+  right: 48px;
+  margin-top: -121px;
+}
+
+/* section culture */
+
+/*.section-culture  {
+  
+  margin-top: 60px;
+}
+
+.culture-title {
+  font-size: 3rem ;
+  margin-bottom: 60px;
+  margin-left: 150px;
+}
+.culture-list {
+  display: flex;
+  margin-left: 170px;
+  margin-right: 150px;
+  align-items: center;
+
+}
+.culture-item img {
+  width: 100%;
+   border-radius: 12px;
+}
+.culture-item {
+box-shadow: 0 0 10px 0 rgba(204, 204, 204, 0.5);
+padding: 20px;
+margin: 30px;
+ border-radius: 12px;
+}
+.culture-item p {
+  color: grey;
+}
+.culture-list-title:hover {
+  color: darkred;
+}
+.button-culture {
+  color: darkred;
+  font-size: 1.0rem;
+  font-weight: bold;
+
+}
+.culture-main {
+   width: 28%;
+  color: white;
+  background-color: black;
+  padding: 22px;
+  border-radius: 10px;
+  justify-content: space-around;
+  font-size: 1.0rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 544px;
+}
+.button-culture-main:hover .culture-main {
+  background-color: darkred;
+}
+/* footer */
+
+/*.footer {
+  background-color: whitesmoke;
+  padding: 100px;
+  margin-top: 80px;
+
+
+}
+.footer-image img {
+  margin-top: 70px;
+  width: 150px;
+}
+.footer-card {
+ max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 30px;
+  grid-template-columns: 20% 25% 30% 25%;
+}
+
+.footer-list h4 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.footer-list p {
+  color: grey;
+}
+.footer-list-office {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.footer-list-office p {
+  color: grey;
+}
+
+
